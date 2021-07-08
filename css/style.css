@@ -1,0 +1,84 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    width: 80%;
+    margin: 0 auto;
+}
+header>h1{
+    text-align: center;
+    padding: 50px;
+}
+h2,p{
+    padding: 20px 0;
+}
+
+.esercizi{
+    margin: 30px 0;
+}
+.box{
+    background-color: rgb(230, 228, 228);
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 20px;
+    height: 150px;
+    
+}
+.es1-square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition: all 2s;
+}
+.es1-square:hover{
+    background-color: red;
+}
+.es2-square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s;
+}
+.es2-square:active{
+    width: 100%;
+}
+.es3-square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s;
+}
+.es3-square:hover{
+    border-radius: 50%;
+}
+.es4-square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s;
+}
+.es4-square:hover{
+    background-color: transparent;
+}
+.es5-square{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    transition: all 1s;
+    margin: 20px;
+}
+.es5-square:hover{
+   transform: scale(2)
+}
+.es5-square:active{
+    transform: scale(0.5);
+}
+
+
+
+
