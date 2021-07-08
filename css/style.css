@@ -26,7 +26,7 @@ h2,p{
     border-radius: 5px;
     border: 1px solid grey;
     padding: 20px;
-    height: 150px;
+
     
 }
 .es1-square{
@@ -78,7 +78,44 @@ h2,p{
 .es5-square:active{
     transform: scale(0.5);
 }
+.es6 img, 
+.es7 img,
+.es8 img,
+.es9 img{
+    width: 500px;
+}
+.es6 img:hover{
+    filter: grayscale(1);
+}
 
+.es7 img{
+    transition: all 2s;
+}
+
+.es7 img:hover{
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+.es8 img{
+    transition: all 2s;
+}
+
+.es8 img:hover{
+    border-radius: 20px;
+    filter:grayscale(0.5) sepia(0.5);
+}
+.es9 img{
+    width: 300px;
+    transition: all 2s;
+    margin: 100px;
+}
+
+.es9 img:hover{
+
+    transform: scale(1.7);
+    border-radius: 20px;
+    filter:grayscale(0.5) sepia(0.5);
+}
 
 
 
